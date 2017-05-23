@@ -1,0 +1,821 @@
+@media only screen  and (min-width : 701px) {
+     /* PANTALLAS GRANDES (WEB)*/
+   
+.div_header{
+    
+    height: 219px;
+    width: 100%;
+	min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo_header{
+	height: 130px;
+    width: 100px;
+	min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#li_menu_header{
+	text-align:center;
+	    padding-right: 31px;
+}
+
+#dropdown1 li {
+    background: #1B1971;
+}
+
+ #map {
+       /* width: 100%;*/
+        height: 400px;
+        background-color: grey;
+		margin-right:50px;
+		margin-left:50px;
+		padding-left:50px;
+		padding-right:50px;
+		
+		   
+		
+      }
+/* MODIFICADO SUBMENU PORTAFOLIO*/
+.nav_menu_header {
+
+
+       
+
+/* background: -webkit-linear-gradient(top, #3F51B5 0, #F44336 100%) no-repeat;
+    border-radius: 11px 11px 0 0;
+    padding: 6px;
+    z-index: 100;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+		min-width: 352px;
+		height: 60px;*/
+		
+}
+
+.ul_menu_header{
+	list-style: none;
+	padding-left:0px;
+    float: none;
+    text-align: center;
+	display: flex;
+}
+
+
+
+#text_menu_li{
+	 text-decoration:none;
+	 font-size: 25px;
+    font-family: cursive;
+	    color: cornsilk;
+		    display: inline;
+}
+
+
+		ul.ul_menu_header>li:hover>a {
+  /*    
+    background: -webkit-linear-gradient(top, #8a97a1 0, #888d92 100%) no-repeat;
+    border-radius: 15px;
+    border: 1px solid #f7f7f7;
+    padding: 0px 50px;
+    margin: -6px auto; ---*/
+}
+	.ul_redes{
+			list-style: none;
+		float: left;
+	}
+
+	.ul_contacto{
+		   list-style: none;
+		float: left;
+	}
+
+	#li_contacto{
+		float:left;
+	}
+
+	#li_redes{
+		float:left;
+		width: 100px;
+	}
+
+	#img_redes{
+		width: 100%;
+    height: 76px;
+    padding-right: 18px;
+
+	}
+			
+	.div_footer{
+		    background: #e8e8e8;
+    width: 100%;
+    height: 217px;
+    min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+	 height: 100%;
+					float:left;
+    
+    font-size: x-large;
+    font-family: cursive;
+    position: relative;
+    top: 100px;
+
+	}
+			
+			#div_foot1{
+				    height: 100%;
+    width: 50%;
+    float: left;
+			
+			}
+				#div_foot2{
+	
+			}
+			
+			#li_menu_cont{
+				padding-left:30px;
+			}
+			
+					/*ELISA*/
+		#div_formulario{
+			    padding-bottom: 26px;
+				padding-left:55px;
+				padding-right:50px;
+				width:100%;
+                position: relative;
+                top: 50px;
+
+		}
+		
+.contactenos{
+   width: 100%;
+   height: 480px;
+   /*margin: auto;*/
+   box-sizing: border-box;
+   background: rgba(192,192,192,0.3);
+  /*padding: 10px 20px;*/
+   border-radius: 7px;
+   position: relative;
+   bottom: -20px;
+   
+
+}
+.input-normal{
+    width: 48%;
+    margin-bottom:20px;
+        margin-right: -2px;
+    padding: 7px ;
+    position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 48%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.contactenos select {
+    width: 48%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+.btn_comentarios{
+    background:#1656A2 ;
+    color: #fff;
+    padding: 7px;
+    width: 30%;
+   
+        display: inherit;
+    right: 10px;
+
+}
+#btn_registro{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #151390;
+    border-radius: 15px;
+   position: relative;
+   top: 20px;
+   left: 1050px;
+}
+
+#btn_registro:hover{
+     opacity: 0.6;
+    text-decoration: none;
+}
+
+/* MODIFICADO TITULO FORMULARIO
+.form-titulo{
+    background:#1656A2 ;
+    color:#fff ;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100
+    font-size: 30px;
+    border-bottom: 3px solid crimson;
+	
+	
+}*/
+
+.form-titulo {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+    width: 100%;
+    float: left;
+    font-size: 40px;
+          
+
+}
+.quienes_somos{
+    position: relative;
+    top: 100px;
+}
+.div_nuestra_compania
+{
+	padding-left: 50px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+    width: 100%;
+	    float: left;
+		    background: #e8e8e8;
+}
+
+#div_mision_vision{
+	
+    font-family: cursive;
+    text-align: justify;
+   padding-right:50px;
+	     width: 100%;
+		     background: #e8e8e8;
+		  
+	  
+}
+
+#video_contabilidad{
+    position: relative;
+    top: 85px;
+    left: 45px;
+    width:580; 
+    height:450;
+    
+
+}
+
+.titulo_video_contabilidad{
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+
+.titulo_video_contabilidad h2{
+    font-family: cursive;
+    font-size: 30px;
+   
+}
+.equipo_trabajo{
+    position: absolute;
+    left: 700px;
+    top:50px;
+}
+
+.equipo_trabajo img{
+    width: 470px;
+    height: 400px;
+}
+
+#modal1{
+    display:none;
+    position: absolute;
+    top: 30% !important;
+    left: 40%;
+    width: 600px;
+    height: 600px;
+    margin-left: -175px;
+    margin-top: -175px;
+
+  
+}
+
+#modal1 form {
+    
+    
+}
+
+#modal1 h2{
+    font-family: cursive;
+    color: #100C82;
+    text-align: center;
+
+}
+
+.cerrar{
+    color: white;
+    font-weight:900;
+    text-align: right;
+    padding-right: 8px; 
+}
+.btn_registro_facebook{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #51509C;
+    border-radius: 5px;
+    width: 120px;
+   position: relative;
+    top:45px;
+  
+
+}
+
+.btn_registro_twitter{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    width: 120px;
+   position: relative;
+
+  
+
+}
+.btn_modal_registro{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #151390;
+    border-radius: 5px;
+    width: 150px;
+   position: relative;
+   top: -30px;
+   
+}
+
+.btn_modal_registro:hover{
+     opacity: 0.6;
+    text-decoration: none;
+}
+
+.titulo_modal{
+    font-family: cursive;
+    font-size: 30px;
+    color: 
+
+
+}
+.servicios_administrativos_y_contables{
+    padding-left: 50px;
+    padding-right: 30px;
+    font-family: cursive;
+    font-size: 17px;
+    text-align: justify;
+    width: 50%;
+        float: left;
+        position: relative;
+        top: 20px;
+}
+.servicios_administrativos_y_contables h3{
+     font-family: cursive;
+    font-size: 40px;
+
+}
+
+.img_admin{
+    padding-top: 141px;
+  /*  position: absolute;
+    left: 700px;
+    top: 50px;*/
+}
+	
+.img_contab{
+     position: absolute;
+    left: 700px;
+    top: 50px;
+}
+
+}	
+
+@media only screen and (max-width : 700px) {
+	/* PANTALLAS PEQUEÑAS (MOVIL)*/
+	#map_container{
+		    height: 500px;
+	}
+	
+	 #map {
+       /* width: 100%;*/
+        height: 400px;
+        background-color: grey;
+		margin-right:50px;
+		margin-left:50px;
+		padding-left:50px;
+		padding-right:50px;
+		
+		    height: 83%;
+    position: relative;
+    overflow: hidden;
+		
+      }
+	
+.div_header{
+    
+   
+    width: 100%;
+	min-width: 352px;
+	height: 344px;
+}
+.logo_header{
+	height: 100px;
+    width: 50px;
+	min-width: 150px;
+}
+#btn_registro{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #151390;
+    border-radius: 15px;
+   position: relative;
+   top: 15px;
+   left:105px;
+}
+
+#btn_registro:hover{
+     opacity: 0.6;
+    text-decoration: none;
+}
+#li_menu_header{
+	text-align:center;
+	    float: none;
+		    height: 37px;
+}
+#dropdown1 li {
+    background: #1B1971;
+}
+
+
+.nav_menu_header {
+    /* background: #005CA3; */
+   /* background: -webkit-linear-gradient(top, #3F51B5 0, #F44336 100%) no-repeat;*/
+  /*  border-radius: 11px 11px 0 0;
+    padding: 6px;
+    z-index: 100;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+		min-width: 352px;
+		height: 174px;*/
+        height: 174px;
+}
+
+.div_nuestra_compania
+{
+	padding-left: 50px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+       width: 100%;
+	    float: left;
+		    background: #e8e8e8;
+}
+
+#div_mision_vision{
+	
+    font-family: cursive;
+    text-align: justify;
+      padding-left: 50px;
+    padding-right: 30px;	
+	     width: 100%;
+		     background: #e8e8e8;
+		  
+	  
+}
+
+.ul_menu_header{
+	list-style: none;
+	padding-left:0px;
+/*	display: block;*/
+    float: none;
+    text-align: center;
+}
+
+#text_menu_li{
+	 text-decoration:none;
+	 font-size: 25px;
+    font-family: cursive;
+	    color: cornsilk;
+}
+
+
+		ul.ul_menu_header>li:hover>a {
+      /*
+    background: -webkit-linear-gradient(top, #8a97a1 0, #888d92 100%) no-repeat;
+	*/
+  /*  border-radius: 15px;
+    border: 1px solid #f7f7f7; */
+    padding: 0px 110px;
+    margin: 0 auto;
+	       display: inline;
+}
+	.ul_redes{
+			list-style: none;
+		float: left;
+	}
+
+	.ul_contacto{
+		   list-style: none;
+		float: left;
+	}
+
+	#li_contacto{
+		float:left;
+	}
+
+	#li_redes{
+		float:left;
+		width: 100px;
+	}
+
+	#img_redes{
+		width: 80%;
+    height: 76px;
+    padding-right: 5px;
+
+	}
+			
+.div_footer{
+		    background: #e8e8e8;
+    width: 100%;
+    height: 217px;
+    min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+	 height: 100%;
+					float:left;
+    
+    font-size: x-large;
+    font-family: cursive;
+	}
+			
+			#div_foot1{/*
+					height: 250px;
+					font-size: x-large;
+		font-family: cursive;
+		background:#e8e8e8;*/
+			    height: 100%;
+    width: 100%;
+    float: left;
+			}
+				#div_foot2{/*
+					height: 138px;
+					font-size: x-large;
+		font-family: cursive;
+		background:#e8e8e8;*/
+			}
+		
+		/*ELISA*/
+		#div_formulario{
+			    padding-bottom: 26px;
+				width:100%;
+                position: relative;
+                top: 20px;
+		}
+		
+.contactenos{
+  width: 100%;
+   height: 480px;
+   /*margin: auto;*/
+   box-sizing: border-box;
+   background: rgba(192,192,192,0.3);
+  /*padding: 10px 20px;*/
+   border-radius: 7px;
+   position: relative;
+   bottom: -20px;
+
+}
+.input-normal{
+    width: 95%;
+    margin-bottom:20px;
+    margin-right: 20px;
+    padding: 7px ;
+    position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 95%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.contactenos select {
+    width: 95%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+.btn_comentarios{
+    background:#1656A2 ;
+    color: #fff;
+    padding: 7px;
+    width: 30%;
+    float: right;
+    position: relative;
+    right: 10px;
+
+}
+.form-titulo{
+   text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+     padding-left: 10px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+    width: 100%;
+        float: left;
+	
+	
+}
+
+#video_contabilidad{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    
+    
+
+}
+
+.titulo_video_contabilidad{
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.titulo_video_contabilidad h2{
+    font-family: cursive;
+    font-size: 30px;
+   
+}
+.equipo_trabajo img{
+    width: 300px;
+    height: 300px;
+}
+
+#modal1{
+    display:none;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    margin-left: -175px;
+    margin-top: -175px;
+
+  
+}
+
+#modal1 form {
+    
+    
+   
+}
+
+#modal1 h2{
+    font-family: cursive;
+    color:  #100C82;
+    text-align: center;
+
+}
+
+.cerrar{
+    color: white;
+    font-weight:900;
+    text-align: right;
+    padding-right: 8px; 
+}
+.btn_registro_facebook{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #51509C;
+    border-radius: 5px;
+    width: 120px;
+   position: relative;
+    top:45px;
+  
+
+}
+
+.btn_registro_twitter{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    width: 120px;
+   position: relative;
+
+  
+
+}
+.btn_modal_registro{
+     text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: #151390;
+    border-radius: 5px;
+    width: 150px;
+   position: relative;
+   top: -5px;
+   
+}
+
+.btn_modal_registro:hover{
+     opacity: 0.6;
+    text-decoration: none;
+}
+
+.titulo_modal{
+    font-family: cursive;
+    font-size: 30px;
+    color: 
+
+
+}
+
+
+
+}

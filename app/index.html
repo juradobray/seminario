@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MAFE consultores y asesores</title>
+		
+        <link rel="stylesheet" type="text/css" media="only screen  and (min-width : 700px)" href="css/index.css">
+		      
+			  <link rel="stylesheet" type="text/css" media="only screen and (max-width : 700px)" href="css/index.css">
+        <!-- <link rel="stylesheet" href="resources/css/jquery.modal.css"> -->
+			
+
+		
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      
+		
+        <div class="div_header">
+ <!-- Modal Trigger 
+          <input id="btn_registro" type="submit" value="Registrarse" />
+		 -->
+  <a class="waves-effect waves-light btn" style="float: right;"  href="#modal1">Registrarse</a>
+        <center>		
+            <figure >
+                <img class="logo_header" src="images/logo.jpg">
+            </figure>        
+			</center>
+
+      
+            <nav class="nav_menu_header indigo darken-4 col s12 m6"> 
+			
+                <ul class="ul_menu_header left ">
+
+                    <li id="li_menu_header">
+                        <a id="text_menu_li" href="index.html" >Inicio</a>
+                    </li>
+
+                    <li id="li_menu_header">
+                        <a id="text_menu_li" class="dropdown-button"  data-activates="dropdown1" href="!#" >Portafolio<i class="material-icons right">arrow_drop_down</i></a>
+           
+                    </li>
+
+
+                    <li id="li_menu_header">
+                        <a id="text_menu_li" href="quienesSomos.html" >Quienes somos</a>
+                    </li>
+
+                    <li id="li_menu_header">
+                        <a id="text_menu_li" href="contactenos.html" >Contáctenos</a>
+                    </li>	
+                </ul>
+            </nav>
+        </div>
+		    <ul id="dropdown1" class="dropdown-content">
+
+                  <li id=""><a id="" href="administrativos.html" >Administartivos</a></li>
+                     <li id=""><a id="" href="contables.html" >Contables</a></li>
+						</ul>
+
+
+ <div class="carousel" >
+    <a class="carousel-item" href="#one!"><img src="images/logo.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="images/porvenir.gif"></a>
+    <a class="carousel-item" href="#three!"><img src="images/positiva.png"></a>
+    <a class="carousel-item" href="#four!"><img src="images/sura_arl.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="images/coomeva_epx.jpg"></a>
+  </div>
+  
+      <div id="map_container"class="card-panel teal lighten-2 col s12 m6">
+  <h3 style="text-align:center;">Visítanos!!</h3>
+    <div id="map" class="col s12 m6"></div>
+</div>
+      
+       <!-- Modal Registro 
+        <div id="modal" class="modal1">-->
+		 <div id="modal1" class="modal">
+          <form  >
+            <div class="cerrar">X</div>
+            <h2 class="titulo_modal">Bienvenido a MAFE Consultores y Asesores</h2>
+            <hr>
+           <div class="row">
+           <div class="input-field col s6 m6">
+          <input id="nombre" type="text" class="validate">
+          <label for="nombre">Nombre Completo</label>
+        </div>
+        <div class="input-field col s6 m6">
+		   <a id="btnFacebook" class="btn_registro_facebook" href="#">Facebook</a>
+       </div>
+     </div>
+
+          <div class="row">
+          <div class="input-field col s6 m6">
+          <input id="email" type="email" class="validate" >
+          <label for="email">Correo Electrónico</label>
+        </div>
+        <div class="input-field col s6 m6">
+		  <a id="btnTwitter" class="btn_registro_twitter" href="#">Twitter</a>
+       </div>
+      </div>
+
+        <div class="row">
+        <div class="input-field col s6 m6">
+           <input id="pass" type="password" class="validate" >
+          <label for="pass">Contraseña</label>
+
+
+        </div>
+        
+      </div>
+
+      <div class="row">
+           <div class="input-field col s6 m6">
+			 		   <a id="btn_registro_mail" class="btn_modal_registro" href="#">Registrarse</a>
+
+           </div>
+         </div>
+
+    </form>
+    </div>
+
+		<footer class="div_footer blue-grey lighten-2 col s12">
+		<div id="div_foot1" class="col s6 m6" >
+			<div>
+			Ubicacion:
+			</div>
+				<div>
+				<ul class="ul_contacto">
+				<li id="li_menu_cont">Dirección: Calle xx #x-xx </li>
+				<li id="li_menu_cont">	Teléfono fijo: 2222222 </li>
+				<li id="li_menu_cont">	Celular: +57 3110011223 </li>
+				<li id="li_menu_cont">	Correo Electrónico: mafe@mafe.com </li>
+				</ul>
+					
+				</div>
+			</div>
+		
+			
+			<div  id="div_foot1" class="col s6 m6">
+			<div>
+			Síguenos:
+			</div>
+			<div>
+			<ul class="ul_redes">			
+                            <li id="li_redes">
+                                <a href="https://www.facebook.com/bray0607" ><img id="img_redes" src="images/facebook.png"></a>
+                            </li>
+                            <li id="li_redes">
+                                <a href="https://twitter.com/juradobray" ><img id="img_redes" src="images/twitter.jpg"></a>
+                            </li>
+                            <li id="li_redes">
+                                <a href="https://www.instagram.com/juradobray" ><img id="img_redes" src="images/instagram.jpg"></a>
+                            </li>
+
+                        </ul>
+						</div>
+			</div>
+		</footer>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	  <script type="text/javascript">
+	   $(document).ready(function(){
+  
+   
+    });
+	  </script>
+	  
+	   <script>
+      function initMap() {
+	  
+	   var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h4 id="firstHeading">MAFE consultores y asesores</h4>'+
+            '<div id="bodyContent">'+
+            '<p>Visitenos para tener el gusto de atenderlo!!<br/>Estamos ubicados en: Calle xx ·xx-xx </p>'+
+           
+            '</div>'+
+            '</div>';
+			 var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        var mafe_position = {lat: 3.391708, lng: -76.552253};
+		
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: mafe_position
+        });
+		
+        var marker = new google.maps.Marker({
+          position: mafe_position,
+          map: map,
+		  title: 'MAFE asesores y consultores'
+        });
+				marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+
+      }		
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDESqdg6S0qMwWiRi2qZYRwk1oCcdf5tVE&callback=initMap">
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>    
+       <script type="text/javascript" src="js/main.js"></script>
+	   
+	   <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <!--build:js js/main.min.js -->
+    <script type="text/javascript" src="js/config/ConfigFirebase.js"></script>
+	
+	
+    <script type="text/javascript" src="js/general.js"></script>
+    <script type="text/javascript" src="js/auth/autenticacion.js"></script>
+       
+		
+    </body>
+
+</html>
